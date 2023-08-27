@@ -161,3 +161,11 @@ header {
 .footer__card .nav__item {
   margin-bottom: 1rem;
 }
+
+/* media querys */
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 1000px) {
+}
