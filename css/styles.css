@@ -42,3 +42,7 @@ a {
   background-color: var(--beige);
   color: var(--white);
 }
+
+.text-highlight {
+  color: var(--beige);
+}
