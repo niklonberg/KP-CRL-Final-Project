@@ -55,3 +55,8 @@ a {
   background-color: var(--dark-blue-grey);
   color: var(--white);
 }
+
+.footer-color {
+  background-color: var(--dark-blue-grey);
+  color: var(--white);
+}
