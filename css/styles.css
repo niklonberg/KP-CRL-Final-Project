@@ -134,6 +134,11 @@ header {
   font-size: 24px;
 }
 
+.hero-link {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
 /* article */
 
 .selling-points {
