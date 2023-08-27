@@ -23,7 +23,7 @@ a {
 :root {
   --darker-blue-grey: #2e323f;
   --dark-blue-grey: #3b4050;
-  --steel-grey: #6f737f;
+  --steel-grey: #6f737f2a;
   --white: #ffffff;
   --beige: #a59678;
 }
@@ -41,6 +41,10 @@ a {
 .link-color {
   background-color: var(--beige);
   color: var(--white);
+}
+
+.selling-points-color {
+  background-color: var(--steel-grey);
 }
 
 .text-highlight {
