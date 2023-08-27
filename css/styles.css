@@ -106,12 +106,16 @@ header {
 /* hero section */
 
 .hero-sect {
-  display: flex;
-  flex-direction: column;
   padding: 1rem 0;
   text-align: center;
 }
 
 .hero-sect > * {
   border: 2px solid yellow;
+}
+
+/* article */
+
+.selling-points {
+  padding: 2rem 0;
 }
