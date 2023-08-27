@@ -1,0 +1,12 @@
+:root {
+  --darker-blue-grey: #2e323f;
+  --dark-blue-grey: #3b4050;
+  --steel-grey: #6f737f;
+  --white: #ffffff;
+  --beige: #a59678;
+}
+
+.header-color {
+  background-color: var(--darker-blue-grey);
+  color: var(--white);
+}
