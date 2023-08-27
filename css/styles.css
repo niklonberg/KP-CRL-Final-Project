@@ -145,6 +145,14 @@ header {
   padding: 2rem 0;
 }
 
+.selling-points h2 {
+  font-size: 30px;
+}
+
+.selling-points p {
+  font-size: 18px;
+}
+
 /* main */
 
 .main-aside__card {
