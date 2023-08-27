@@ -19,6 +19,12 @@ ul {
 a {
   color: var(--white);
   text-decoration: none;
+  padding: 0.25em 0.75em;
+  border-radius: 100px;
+}
+
+h1 {
+  margin: 0;
 }
 
 img {
@@ -79,7 +85,7 @@ img {
 /* header & nav */
 
 header {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 .nav__list {
@@ -95,6 +101,17 @@ header {
 
 .nav__link {
   background-color: pink;
-  padding: 0.25em 0.75em;
-  border-radius: 100px;
+}
+
+/* hero section */
+
+.hero-sect {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.hero-sect > * {
+  border: 2px solid yellow;
 }
