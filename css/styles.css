@@ -119,3 +119,11 @@ header {
 .selling-points {
   padding: 2rem 0;
 }
+
+/* main */
+
+.main-aside__card {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
