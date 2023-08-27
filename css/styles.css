@@ -87,6 +87,8 @@ img {
 
 header {
   padding: 1.5rem 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
 }
 
 .nav__list {
@@ -113,6 +115,14 @@ header {
 
 .hero-sect > * {
   border: 2px solid yellow;
+}
+
+.hero-sect__heading {
+  font-size: 30px;
+}
+
+.hero-sect__content {
+  font-size: 24px;
 }
 
 /* article */
@@ -165,7 +175,13 @@ header {
 /* media querys */
 
 @media (min-width: 700px) {
+  .hero-sect__heading {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 1000px) {
+  .hero-sect__heading {
+    font-size: 90px;
+  }
 }
