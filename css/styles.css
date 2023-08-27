@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --darker-blue-grey: #2e323f;
   --dark-blue-grey: #3b4050;
@@ -9,4 +15,18 @@
 .header-color {
   background-color: var(--darker-blue-grey);
   color: var(--white);
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
 }
