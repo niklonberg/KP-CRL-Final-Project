@@ -28,6 +28,16 @@ h1 {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Oswald", sans-serif;
+}
+
 img {
   max-width: 100%;
 }
@@ -87,7 +97,6 @@ img {
 
 header {
   padding: 1.5rem 0;
-  font-family: "Oswald", sans-serif;
   font-size: 18px;
 }
 
