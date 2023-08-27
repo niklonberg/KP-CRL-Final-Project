@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* colors */
+
 :root {
   --darker-blue-grey: #2e323f;
   --dark-blue-grey: #3b4050;
@@ -17,16 +33,7 @@
   color: var(--white);
 }
 
-body {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-a {
+.hero-section-color {
+  background-color: var(--dark-blue-grey);
   color: var(--white);
-  text-decoration: none;
 }
