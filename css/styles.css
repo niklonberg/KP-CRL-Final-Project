@@ -161,6 +161,14 @@ header {
   margin-bottom: 2rem;
 }
 
+.main-content h2 {
+  font-size: 36px;
+}
+
+.main-content p {
+  font-size: 21px;
+}
+
 /* footer */
 
 .footer {
