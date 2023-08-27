@@ -169,6 +169,14 @@ header {
   font-size: 21px;
 }
 
+.main-aside h3 {
+  font-size: 30px;
+}
+
+.main-aside p {
+  font-size: 18px;
+}
+
 /* footer */
 
 .footer {
