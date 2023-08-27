@@ -37,3 +37,8 @@ a {
   background-color: var(--dark-blue-grey);
   color: var(--white);
 }
+
+.link-color {
+  background-color: var(--beige);
+  color: var(--white);
+}
