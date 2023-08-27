@@ -50,3 +50,8 @@ a {
 .text-highlight {
   color: var(--beige);
 }
+
+.aside-color {
+  background-color: var(--dark-blue-grey);
+  color: var(--white);
+}
