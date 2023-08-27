@@ -127,3 +127,36 @@ header {
   padding: 1rem 2rem;
   margin-bottom: 2rem;
 }
+
+/* footer */
+
+.footer {
+  padding: 1rem 0;
+}
+
+.footer__heading {
+  text-align: center;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__about {
+  border: 2px solid yellow;
+}
+
+.footer__links {
+  border: 2px solid cyan;
+  display: flex;
+}
+
+.footer__card {
+  border: 2px solid black;
+  flex: 1;
+}
+
+.footer__card .nav__item {
+  margin-bottom: 1rem;
+}
