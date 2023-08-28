@@ -29,6 +29,10 @@ a:hover {
   color: black;
 }
 
+.logo:hover {
+  background-color: var(--beige);
+}
+
 h1 {
   margin: 0;
 }
