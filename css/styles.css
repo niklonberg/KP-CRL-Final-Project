@@ -160,11 +160,6 @@ header {
   padding: 8rem 0;
 }
 
-.main__aside--card {
-  text-align: center;
-  padding: 1rem 2rem;
-}
-
 .main__content h2 {
   margin: 0;
   font-size: 36px;
@@ -172,14 +167,18 @@ header {
 
 .main__content p {
   font-size: 21px;
+  margin: 3rem 0;
 }
 
-.main__content img {
-  margin: 2rem 0;
+.main__aside {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .main__aside--card {
-  padding: 1rem;
+  text-align: center;
+  padding: 1rem 2rem;
 }
 
 .main__aside h3 {
@@ -262,8 +261,7 @@ header {
   }
 
   .main__aside {
-    display: flex;
-    gap: 2rem;
+    flex-direction: row;
   }
 }
 
@@ -278,11 +276,8 @@ header {
   }
 
   .main__aside {
-    display: block;
     flex: 1;
-  }
-
-  .main__aside--card {
-    margin-bottom: 1rem;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
