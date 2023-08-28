@@ -156,25 +156,25 @@ header {
 
 /* main */
 
-.main-aside__card {
+.main__aside--card {
   text-align: center;
   padding: 1rem 2rem;
   margin-bottom: 2rem;
 }
 
-.main-content h2 {
+.main__content h2 {
   font-size: 36px;
 }
 
-.main-content p {
+.main__content p {
   font-size: 21px;
 }
 
-.main-aside h3 {
+.main__aside h3 {
   font-size: 30px;
 }
 
-.main-aside p {
+.main__aside p {
   font-size: 18px;
 }
 
@@ -248,7 +248,7 @@ header {
     gap: 8rem;
   }
 
-  .main-aside {
+  .main__aside {
     display: flex;
     gap: 2rem;
   }
