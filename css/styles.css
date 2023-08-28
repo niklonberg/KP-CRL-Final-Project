@@ -143,7 +143,7 @@ header {
 /* article */
 
 .selling-points {
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .selling-points h2 {
@@ -223,7 +223,7 @@ header {
 
 @media (min-width: 700px) {
   .hero-sect__heading {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .hero-sect {
@@ -231,10 +231,20 @@ header {
     align-items: flex-end;
     gap: 3rem;
   }
+
+  .selling-points-layout {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1000px) {
   .hero-sect__heading {
     font-size: 90px;
+  }
+
+  .selling-points-layout {
+    gap: 8rem;
   }
 }
