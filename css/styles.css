@@ -156,6 +156,10 @@ header {
 
 /* main */
 
+.main {
+  padding: 8rem 0;
+}
+
 .main__aside--card {
   text-align: center;
   padding: 1rem 2rem;
