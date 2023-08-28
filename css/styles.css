@@ -24,6 +24,11 @@ a {
   border-radius: 100px;
 }
 
+a:hover {
+  background-color: var(--white);
+  color: black;
+}
+
 h1 {
   margin: 0;
 }
@@ -126,10 +131,6 @@ header {
   gap: 1.25rem;
   width: 100%;
   order: 3;
-}
-
-.nav__link {
-  background-color: pink;
 }
 
 .nav__toggle {
