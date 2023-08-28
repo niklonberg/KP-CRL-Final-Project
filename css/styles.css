@@ -163,10 +163,10 @@ header {
 .main__aside--card {
   text-align: center;
   padding: 1rem 2rem;
-  margin-bottom: 2rem;
 }
 
 .main__content h2 {
+  margin: 0;
   font-size: 36px;
 }
 
@@ -174,7 +174,16 @@ header {
   font-size: 21px;
 }
 
+.main__content img {
+  margin: 2rem 0;
+}
+
+.main__aside--card {
+  padding: 1rem;
+}
+
 .main__aside h3 {
+  margin: 0;
   font-size: 30px;
 }
 
@@ -271,5 +280,9 @@ header {
   .main__aside {
     display: block;
     flex: 1;
+  }
+
+  .main__aside--card {
+    margin-bottom: 1rem;
   }
 }
