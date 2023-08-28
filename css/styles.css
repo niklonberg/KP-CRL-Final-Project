@@ -121,6 +121,12 @@ header {
   background-color: pink;
 }
 
+.nav__toggle {
+  padding: 0.25em 0.65em;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
 /* hero section */
 
 .hero-sect {
