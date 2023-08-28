@@ -107,10 +107,6 @@ header {
   flex-flow: row wrap;
 }
 
-.nav > * {
-  outline: 2px solid red;
-}
-
 .nav__list {
   visibility: hidden;
   height: 0;
@@ -147,10 +143,6 @@ header {
 .hero-sect {
   padding: 8rem 0 10rem;
   text-align: center;
-}
-
-.hero-sect > * {
-  border: 2px solid yellow;
 }
 
 .hero-sect__heading {
@@ -241,17 +233,8 @@ header {
   font-size: 16px;
 }
 
-.footer__about {
-  border: 2px solid yellow;
-}
-
 .footer__links {
-  border: 2px solid cyan;
   text-align: center;
-}
-
-.footer__card {
-  border: 2px solid black;
 }
 
 .footer__card .nav__item {
