@@ -255,4 +255,17 @@ header {
 }
 
 @media (min-width: 1200px) {
+  .main {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .main__content {
+    flex: 2;
+  }
+
+  .main__aside {
+    display: block;
+    flex: 1;
+  }
 }
