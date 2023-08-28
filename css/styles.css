@@ -247,4 +247,12 @@ header {
   .selling-points-layout {
     gap: 8rem;
   }
+
+  .main-aside {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
 }
